@@ -1,0 +1,286 @@
+/*
+Theme Name: Grifus
+Theme URI: https://cinema21isbest.blogspot.com/
+Author: Cinema21isBest
+Author URI: https://www.facebook.com/cinema21isbest
+Version: 1.0
+*/
+/* Slide Content
+----------------------------------------------- */
+.slide-wrapper {padding:0 auto;margin:0 auto;width:auto;float: left;
+word-wrap: break-word; overflow: hidden;} 
+.slide ul {list-style:none;margin:0;padding:0;}
+.slide .widget {margin:0}
+
+/* Lofslidernews */
+#slider{background:url(http://1.bp.blogspot.com/-qJET1HGpUDc/URJ3PJ91EtI/AAAAAAAAB9k/6-zUQ4CKbmg/s1600/slider-holder.png);padding:10px;margin-left:10px;position:relative;overflow:hidden;width:920px;height:340px;}
+.slider-main-outer{position:relative;height:100%;width:610px;z-index:3;overflow:hidden}
+ul.slider-main-wapper li h3{z-index:10;position:absolute;top:0;width:180px;height:300px;background:url(http://4.bp.blogspot.com/-bp2HK6MdDXg/T5aB6vI5GPI/AAAAAAAAF98/gwCsmb8Fcks/s1600/transparant.png);padding:10px;margin:10px 0 0 10px}
+ul.slider-main-wapper li h3 p{color:#fff;font-size:12px;padding:5px 10px;margin:5px 0;background:#ff2f19;width:150px}
+ul.slider-main-wapper li h3 a{color:#ddd;font-size:20px;line-height:26px;margin:0}
+ul.slider-main-wapper li h3 .title{color:#eee;font:12px Arial;margin:0;padding-top:5px}
+ul.slider-main-wapper li .imgauto{width:590px;height:320px;overflow:hidden;margin:0;padding:0;border:10px solid #111}
+ul.slider-main-wapper{height:340px;width:610px;position:absolute;overflow:hidden;margin:0;padding:0}
+ul.slider-main-wapper li{overflow:hidden;list-style:none;height:100%;width:610px;float:left;margin:0;padding:0}
+.slider-opacity li{position:absolute;top:0;left:0;float:inherit}
+ul.slider-main-wapper li img{list-style:none;width:610px;height:auto;padding:0;margin-top:-30%}
+ul.slider-navigator{top:0;position:absolute;width:100%;margin:0;padding:0}
+ul.slider-navigator li{cursor:pointer;list-style:none;width:100%;overflow:hidden;margin:0;padding:0}
+.slider-navigator-outer{background:#111;position:absolute;right:10px;top:10px;z-index:10;height:340px;width:310px;overflow:hidden;color:#333;}
+.slider-navigator li h5{color:#ccc;font:bold 12px Arial;margin:0;padding:5px 10px 0}
+.slider-navigator li .title{color:#eee;font:11px Tahoma;margin:0;padding-top:5px}
+.slider-navigator li div{height:84px;position:relative;margin:0;padding:0 5px;border-bottom:1px dashed #222}
+.slider-navigator li.active div,.slider-navigator li:hover div{color:#999;}
+.slider-navigator li img{border:#444 solid 2px;height:70px;width:90px;float:left;margin:5px 10px 5px 0}
+.slider-navigator li.active img{border:#ccc solid 2px}
+.slider-navigator li.active h5,.slider-navigator li h5:hover{color:#fd513f}
+
+/* Slider */
+.myname-wrapper {float:right; position: relative;padding-right:10px}
+.myname { overflow: hidden; position: relative; width:300px; height:405px;}
+.image_reel { position: absolute; top: 0; left: 0; }
+.image_reel img {overflow: hidden;float: left;width:300px; height:405px;}
+.paging {background:#1a1a1a; padding: 4px 0 2px; text-align:center;z-index: 100; }
+.paging a { text-indent:-9999px; background:url(//1.bp.blogspot.com/-Xr-bzcGJkf8/WLm3hQEKKsI/AAAAAAAABq4/yY3gP0Phgzo5b6ATOTWzjIAq9slDE1I5ACPcB/s1600/slider_item_active.png) no-repeat center; width:10px; height:10px; display:inline-block;margin:3px; border:none; outline:none; }
+.paging a.active { background:url(//4.bp.blogspot.com/-Z6hiUqdQRdA/WLm3wdB6DuI/AAAAAAAABq4/UjgZC3RRtHQizvsMmz5At5kyOOTiuN6sQCPcB/s1600/slider_item.png) no-repeat center; border:none; outline:none;}
+.paging a:hover {font-weight: bold; border:none; outline:none;}
+.galileo { width:280px; display: none; position:absolute;bottom: 0; left: 0; z-index: 101; background: url(//4.bp.blogspot.com/-OvLZyfRD1zg/WLm38CuLQ8I/AAAAAAAABq4/nMKHvawkNLEBKRPzHg_5Lj0KIFUHR8LBACPcB/s1600/overlay_feature.png)repeat-x top;padding:5px 10px;  }
+.galileo a{color: #fff;font: 16px Oswald }
+.galileo p{color: #fff;font: 12px Arial;}
+
+.PopularPosts .item-thumbnail img{float:right;width:55px;height:70px;background:#cabc73;padding:3px;margin-right:6px;}
+.quickedit{display:none}
+.shadow{width:970px; height:25px; background:url(//3.bp.blogspot.com/-nia3cV9RpD0/WLm4J4XOVJI/AAAAAAAABq4/-5l2lcEJQqwktzpTUudCq9nNX3iJBhO1QCPcB/s1600/slider-shadow.png) no-repeat center;margin:0 auto}
+.blog-pager,#blog-pager{clear:both;font:bold 12px Arial;text-align:center;padding:5px 10px}
+.showpageNum a,.showpage a{text-decoration:none;white-space:nowrap;color:#fff;margin:0 3px;padding:5px 10px}
+.showpageNum a:hover,.showpage a:hover{color:#ff2f19;text-decoration:none;background-color:#fff}
+.showpageOf{display:none;margin:0}
+.showpagePoint{color:#fff;text-decoration:none;background-color:#ff2f19;font-size:12px;padding:5px 10px}
+
+
+
+
+#carousel{width:970px;height:240px;position:relative;display:block;}
+#carousel .container{position:absolute;left:25px;width:930px;height:240px;overflow:hidden}
+#carousel #previous_button{position:absolute;width:25px;height:240px;background:url(http://3.bp.blogspot.com/-SFH7pfuPOg4/UAVZimY-OuI/AAAAAAAAHqE/MOKZ4nE0EFM/s1600/prev.png) center;z-index:100;cursor:pointer;}
+#carousel #next_button{position:absolute;right:0;width:30px;height:240px;background:url(http://4.bp.blogspot.com/-pFR58sZNzCo/UAVZh9I72lI/AAAAAAAAHp8/JTIiHJfsqHA/s1600/next.png) center;z-index:100;cursor:pointer;}
+#carousel #next_button:hover,#carousel #previous_button:hover{filter:alpha(opacity=70);opacity:.7}
+#carousel ul li:hover{background:#111}
+#carousel ul{width:100000px;position:relative;margin-top:10px}
+#carousel ul li{background: url(http://4.bp.blogspot.com/-UzQSVqe350A/URJhGaHsGqI/AAAAAAAAB7s/UVJaEnVxtc8/s1600/body.gif);display:inline;float:left;text-align:center;font:12px Oswald;line-height:1.3em;width:130px;height:200px;margin:0 1px 6px 9px;padding:8px 5px 6px;border:1px solid rgba(255, 47, 25, 1);-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+#carousel ul li a.slider_title{color:#ccc;display:block;margin-top:6px}
+#carousel ul li a.slider_title:hover{color:#fec700}
+
+/* CSS Tab styling is start here */
+
+	/* Tab menu styling*/
+	input.tab-menu-radio {
+		display: none;
+	}
+	label.tab-menu {
+    display: inline-block;
+    float: left;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    z-index: 99;
+}
+	/* End Tab menu styling*/
+
+	/* Tab content styling*/
+	
+	.tab-content {
+		top:-3px;
+		clear: both;
+		width: 100%;
+		position: relative;
+		padding: 4px;
+		border-top: 7px solid #272727;
+        background-color: rgba(18, 18, 18, 1)
+	}	
+	/* End Tab content styling*/
+
+	/* CSS tab core */
+		.tab-menu-radio:checked + label {
+			-webkit-transition:all 1s; /* Optional */
+			-moz-transition:all 1s; /* Optional */
+			transition:all 1s; /* Optional */
+			background-color: #272727;
+			color: #fff;
+		}
+		.tab-content .tab {
+			height: 0;
+			opacity: 0;
+		}
+		#tab-menu1:checked ~ .tab-content .tab-1,
+		#tab-menu2:checked ~ .tab-content .tab-2,
+		#tab-menu3:checked ~ .tab-content .tab-3 {
+			-webkit-transition:opacity 1s; /* Optional */
+			-moz-transition:opacity 1s; /* Optional */
+			transition:opacity 1s; /* Optional */
+			height: auto;
+			opacity: 1;
+		}
+	/* End CSS tab core */
+
+/* CSS Tab Styling is end here */
+/******* IFRAME ********/
+.embed-container { 
+position: relative;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+position: absolute; 
+top: 0; left: 0; width: 100%; height: 100%; 
+}
+/******* END IFRAME ********/
+/******* CONTENT ********/
+
+.data {
+margin-top: 28px;
+position: relative;
+width: 100%;
+}
+.imganime {
+float: left;
+margin-right: 1px;
+}
+.imganime img {
+    width: 166px;
+    height: 235px;
+    border: 1px solid #E7E7E7;
+    padding: 4px;
+    margin-top: 3px;
+    border-radius: 0;
+    /* background: #FFF; */
+}
+.infos {
+    font-size: 13px;
+    font-family: none;
+    line-height: 24px;
+    padding: 0 2px;
+    border-bottom: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.infos:nth-child(odd) {
+background: transparent;
+}
+.infos:nth-child(even) {
+background: transparent;
+}
+.infos b {
+    display: block;
+    float: left;
+    width: 30px;
+    background: rgb(0, 0, 0);
+    border: 2px solid #101010;
+    border-radius: 7px;
+    margin-left: 10px;
+}
+.infos a {
+color: #333;
+}
+
+.animeinfo {
+width: 100%;
+}
+
+.synopsis {
+    position: absolute;
+    right: 550px;
+    top: -15px;
+    font-size: larger;
+    font-weight: 600;
+    color: #f92e18;
+    font-family: serif;
+    font-style: italic;
+}
+
+.deskripsi {
+    top: 540px;
+    height: auto;
+    width: 610px;
+    text-align: justify;
+    font-size: 12px;
+    margin: 15px 0;
+    font-family: sans-serif;
+    border: 0px solid rgba(255, 255, 255, 0.2);
+    padding: 10px 0 10px;
+}
+
+/******* END CONTENT ********/
+
+/******* Download ********/
+.dlbox {
+    background: #171717;
+    border-color: #1D1D1D;
+    color: #999;
+}
+.dlbox a:hover {
+    color: #ffffff;
+    background: #4267b2;
+}
+.dlbox a {
+    background: #0F0F0F;
+    line-height: 2;
+    display: inline-block;
+    padding: 0 10px;
+    bottom: 35px;
+    left: 80px;
+    border-radius: 3px;
+    position: relative;
+}
+.dlbox .panel-footer {
+    background: #131313;
+    border-color: #1D1D1D;
+}
+.panel-heading {
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-body {
+    padding: 12px;
+}
+
+/******* END download ********/
+
+#Label2 .widget-content{
+height:140px;
+width:auto;
+overflow:auto;
+
+}
+
+.info-tag-title {
+    font: 14px Tahoma;
+    position: absolute;
+    top: 280px;
+    left: 428px;
+    border-bottom: 1px dashed #666;
+    padding: 7px 10px;
+    line-height: 1;
+}
+
+@media screen and (max-device-width:245px) { .deskripsi {
+font-family: sans-serif;font-size: 12px;color: rgba(149, 149, 154, 0.75);
+}}
+@media screen and (max-device-width:480px) {
+.info-tag-title{ top: 287px;
+}}
+@media screen and (max-device-width:1024px) { 
+.info-tag-title {
+   
+    left: 242px;
+}}
+.button_shareny {
+    position: relative;
+    margin-left: 10px;
+    margin-top: -40px;
+}
