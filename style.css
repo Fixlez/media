@@ -53,7 +53,7 @@ ul.slider-navigator li{cursor:pointer;list-style:none;width:100%;overflow:hidden
 .shadow{width:970px; height:25px; background:url(//3.bp.blogspot.com/-nia3cV9RpD0/WLm4J4XOVJI/AAAAAAAABq4/-5l2lcEJQqwktzpTUudCq9nNX3iJBhO1QCPcB/s1600/slider-shadow.png) no-repeat center;margin:0 auto}
 .blog-pager,#blog-pager{clear:both;font:bold 12px Arial;text-align:center;padding:5px 10px}
 .showpageNum a,.showpage a{text-decoration:none;white-space:nowrap;color:#fff;margin:0 3px;padding:5px 10px}
-.showpageNum a:hover,.showpage a:hover{color:#ff2f19;text-decoration:none;background-color:#fff}
+.showpageNum a:hover,.showpage a:hover{color:#ff2f19;text-decoration:none;background-color:#2bb353}
 .showpageOf{display:none;margin:0}
 .showpagePoint{color:#fff;text-decoration:none;background-color:#ff2f19;font-size:12px;padding:5px 10px}
 
@@ -67,7 +67,7 @@ ul.slider-navigator li{cursor:pointer;list-style:none;width:100%;overflow:hidden
 #carousel #next_button:hover,#carousel #previous_button:hover{filter:alpha(opacity=70);opacity:.7}
 #carousel ul li:hover{background:#111}
 #carousel ul{width:100000px;position:relative;margin-top:10px}
-#carousel ul li{background: url(http://4.bp.blogspot.com/-UzQSVqe350A/URJhGaHsGqI/AAAAAAAAB7s/UVJaEnVxtc8/s1600/body.gif);display:inline;float:left;text-align:center;font:12px Oswald;line-height:1.3em;width:130px;height:200px;margin:0 1px 6px 9px;padding:8px 5px 6px;border:1px solid rgba(255, 47, 25, 1);-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+#carousel ul li{background: url(http://4.bp.blogspot.com/-UzQSVqe350A/URJhGaHsGqI/AAAAAAAAB7s/UVJaEnVxtc8/s1600/body.gif);display:inline;float:left;text-align:center;font:12px Oswald;line-height:1.3em;width:130px;height:210px;margin:0 1px 6px 9px;padding:8px 5px 6px;border:1px solid rgba(255, 47, 25, 1);-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
 #carousel ul li a.slider_title{color:#ccc;display:block;margin-top:6px}
 #carousel ul li a.slider_title:hover{color:#fec700}
 
