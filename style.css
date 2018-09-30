@@ -259,6 +259,10 @@ overflow:auto;
 }
 
 .info-tag-title {
+    width: 390px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font: 14px Tahoma;
     position: absolute;
     top: 280px;
