@@ -20,7 +20,7 @@ body, ul, li {
 
    /* Background color and gradients */
 	
-    background: #014464;
+    background: #303230;
     background: -moz-linear-gradient(top, #0272a7, #013953);
 	
   /* Borders */
@@ -99,7 +99,7 @@ body, ul, li {
 	/* Gradient background */
 	background:#F4F4F4;
 	background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2e5836f5), to(#303230));
 
 	/* Rounded Corners */
 	-moz-border-radius: 0px 5px 5px 5px;
