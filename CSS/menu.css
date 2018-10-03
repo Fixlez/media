@@ -6,31 +6,30 @@ body, ul, li {
 }
 
 #menu {
-	list-style:none;
-	width:940px;
-	margin:30px auto 0px auto;
-	height:43px;
-	padding:0px 20px 0px 20px;
+    list-style: none;
+    width: 940px;
+    margin: 30px auto 0px auto;
+    height: 43px;
+    padding: 0px 20px 0px 20px;
+  
+   /* Rounded Corners */
+	
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+     border-radius: 0px;
 
-	/* Rounded Corners */
+   /* Background color and gradients */
 	
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
+    background: #014464;
+    background: -moz-linear-gradient(top, #0272a7, #013953);
+	
+  /* Borders */
+	
+    border: 1px solid #002232;
 
-	/* Background color and gradients */
-	
-	background: #014464;
-	background: -moz-linear-gradient(top, #0272a7, #013953);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0272a7), to(#013953));
-	
-	/* Borders */
-	
-	border: 1px solid #002232;
-
-	-moz-box-shadow:inset 0px 0px 1px #edf9ff;
-	-webkit-box-shadow:inset 0px 0px 1px #edf9ff;
-	box-shadow:inset 0px 0px 1px #edf9ff;
+    -moz-box-shadow: inset 0px 0px 1px #edf9ff;
+    -webkit-box-shadow: inset 0px 0px 1px #edf9ff;
+    box-shadow: inset 0px 0px 1px #edf9ff;
 }
 
 #menu li {
@@ -141,8 +140,8 @@ body, ul, li {
 .col_5 {width:690px;}
 
 #menu .menu_right {
-	float:right;
-	margin-right:0px;
+	float:left;
+	margin-left:0px;
 }
 #menu li .align_right {
 	/* Rounded Corners */
