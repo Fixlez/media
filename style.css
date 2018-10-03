@@ -48,7 +48,7 @@ ul.slider-navigator li{cursor:pointer;list-style:none;width:100%;overflow:hidden
 .galileo a{color: #fff;font: 16px Oswald }
 .galileo p{color: #fff;font: 12px Arial;}
 
-.PopularPosts .item-thumbnail img{float:right;width:55px;height:70px;background:#cabc73;padding:3px;margin-right:6px;}
+.PopularPosts .item-thumbnail img{float:right;width:55px;height:70px;background:#2d3130;padding:3px;margin-right:6px;}
 .quickedit{display:none}
 .shadow{width:970px; height:25px; background:url(//3.bp.blogspot.com/-nia3cV9RpD0/WLm4J4XOVJI/AAAAAAAABq4/-5l2lcEJQqwktzpTUudCq9nNX3iJBhO1QCPcB/s1600/slider-shadow.png) no-repeat center;margin:0 auto}
 .blog-pager,#blog-pager{clear:both;font:bold 12px Arial;text-align:center;padding:5px 10px}
