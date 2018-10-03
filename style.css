@@ -259,19 +259,6 @@ overflow:auto;
 
 }
 
-.info-tag-title {
-    width: 372px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    font: 14px Tahoma;
-    position: absolute;
-    top: 280px;
-    left: 428px;
-    border-bottom: 1px dashed #666;
-    padding: 7px 10px;
-    line-height: 1;
-}
 
 @media screen and (max-device-width:245px) { .deskripsi {
 font-family: sans-serif;font-size: 12px;color: rgba(149, 149, 154, 0.75);
