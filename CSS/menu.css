@@ -63,16 +63,16 @@ body, ul, li {
 #menu li a {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:14px; 
-	color: #EEEEEE;
+	color: #54a558
 	display:block;
 	outline:0;
-	text-decoration:none;
-	text-shadow: 1px 1px 1px #000;
+	text-decoration: none;
+    /* text-shadow: 1px 1px 1px #000; */
 }
 
 #menu li:hover a {
-	color:#161616;
-	text-shadow: 1px 1px 1px #ffffff;
+	color: #cc490b;
+    /* text-shadow: 1px 1px 1px #ffffff; */
 }
 #menu li .drop {
 	padding-right:21px;
@@ -87,24 +87,24 @@ body, ul, li {
 .dropdown_3columns, 
 .dropdown_4columns,
 .dropdown_5columns {
-	margin:4px auto;
-	float:left;
-	position:absolute;
-	left:-999em; /* Hides the drop down */
-	text-align:left;
-	padding:10px 5px 10px 5px;
-	border:1px solid #777777;
-	border-top:none;
+    margin:4px auto;
+    float: left;
+    position: absolute;
+    left: -999em;
+    text-align: left;
+    padding: 10px 5px 10px 5px;
+    border: 1px solid #306747;
+    border-top: none;
 	
-	/* Gradient background */
-	background:#F4F4F4;
-	background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2e5836f5), to(#303230));
+    /* Gradient background */
+    background: #1b1b1b;
+    background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1b1b1b), to(#1b1b1b));
 
 	/* Rounded Corners */
 	-moz-border-radius: 0px 5px 5px 5px;
 	-webkit-border-radius: 0px 5px 5px 5px;
-	border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;	
 }
 
 .dropdown_1column {width: 140px;}
@@ -164,6 +164,7 @@ body, ul, li {
 	text-shadow: 1px 1px 1px #FFFFFF;
 }
 #menu h2 {
+	color: #d4cfcd;
 	font-size:21px;
 	font-weight:400;
 	letter-spacing:-1px;
@@ -172,10 +173,11 @@ body, ul, li {
 	border-bottom:1px solid #666666;
 }
 #menu h3 {
-	font-size:14px;
-	margin:7px 0 14px 0;
-	padding-bottom:7px;
-	border-bottom:1px solid #888888;
+	color: #6ff3da;
+        font-size: 14px;
+        margin: 1px 0 14px 0;
+        padding-bottom: 7px;
+        border-bottom: 1px solid #888888;
 }
 #menu p {
 	line-height:18px;
@@ -184,10 +186,10 @@ body, ul, li {
 
 #menu li:hover div a {
 	font-size:12px;
-	color:#015b86;
+	color:#f3f3f3;
 }
 #menu li:hover div a:hover {
-	color:#029feb;
+	color:#e2470c;
 }
 
 
@@ -236,15 +238,15 @@ body, ul, li {
 	margin:0 0 12px 0;
 }
 #menu li ul li {
-	font-size:12px;
-	line-height:24px;
-	position:relative;
-	text-shadow: 1px 1px 1px #ffffff;
-	padding:0;
-	margin:0;
-	float:none;
-	text-align:left;
-	width:130px;
+	font-size: 12px;
+    line-height: 24px;
+    position: relative;
+    text-shadow: 1px 1px 1px #165a12;
+    padding: 0;
+    margin: 0;
+    float: none;
+    text-align: left;
+    width: 130px;
 }
 #menu li ul li:hover {
 	background:none;
@@ -254,21 +256,20 @@ body, ul, li {
 }
 
 #menu li .greybox li {
-	background:#F4F4F4;
-	border:1px solid #bbbbbb;
-	margin:0px 0px 4px 0px;
-	padding:4px 6px 4px 6px;
-	width:116px;
-
-	/* Rounded Corners */
-	-moz-border-radius: 5px;
+    background: #101f0da3;
+    border: 1px solid #bbbbbb;
+    margin: 0px 0px 4px 0px;
+    padding: 4px 6px 4px 6px;
+    width: 116px;
+    /* Rounded Corners */
+    -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
 }
 #menu li .greybox li:hover {
-	background:#ffffff;
-	border:1px solid #aaaaaa;
-	padding:4px 6px 4px 6px;
-	margin:0px 0px 4px 0px;
+	background: #060606;
+    border: 1px solid #e2470c;
+    padding: 4px 6px 4px 6px;
+    margin: 0px 0px 4px 0px;
 }
