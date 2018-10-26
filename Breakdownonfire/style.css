@@ -41,15 +41,7 @@ background: transparent;
 .infos:nth-child(even) {
 background: transparent;
 }
-.infos b {
-    display: block;
-    float: left;
-    width: 130px;
-    /* background: rgb(0, 0, 0); */
-    /* border: 1px solid #c9caca; */
-    border-radius: 7px;
-    margin-left: 10px;
-}
+
 .infos a {
 color: #333;
 }
@@ -126,7 +118,7 @@ margin-top: 40px;}
  border-radius: 0 4px 4px 4px;
 }
 .menu--shadow {
- position: absolute;
+ position: relative;
  z-index: 300;
  bottom: -5px;
  height: 25px;
